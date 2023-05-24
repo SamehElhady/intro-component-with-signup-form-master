@@ -7,6 +7,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -30,12 +34,12 @@
       </div>
       <div class="row2">
         <form action="#" >
-          <input type="text" placeholder="First Name" required> 
-          <input type="text" placeholder="Last Name" required>
-          <input type="email" placeholder="Email Address" required>
-          <input type="password" placeholder="Password" required>
+          <input type="text" placeholder="First Name" class="input">
+          <input type="text" placeholder="Last Name" class="input" >
+          <input type="email" placeholder="Email Address" class="input">
+          <input type="password" placeholder="Password" class="input">
   
-          <button type="submit">Claim your free trial</button>
+          <button type="submit" id="submit">Claim your free trial</button>
       
 
           <p>clicking the button, you are agreeing to our<span> Terms and Services</span> </p>
@@ -43,11 +47,14 @@
       </div>
     </div>
   </div>
+  <script src="app.js"></script>
+
+  <!--
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </footer>
+  </footer> -->
 </body>
 </html>
