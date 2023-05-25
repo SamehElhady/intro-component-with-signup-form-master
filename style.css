@@ -160,7 +160,7 @@
     color: hsl(0, 100%, 74%);
 
 }
-@media only screen and (max-width:375px){
+@media only screen and (max-width:400px){
     .main{
         background: url(./images/bg-intro-mobile.png),hsl(0, 100%, 74%);
         display: flex;
